@@ -1,0 +1,27 @@
+{
+  "name": "reactiveJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --progress",
+    "build": "webpack -p",
+    "webpack": "webpack",
+    "clean": "rm -rf dist",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
