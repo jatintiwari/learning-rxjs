@@ -15,7 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^6.2.2"
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
