@@ -9,14 +9,15 @@
     "build": "webpack -p",
     "webpack": "webpack",
     "clean": "rm -rf dist",
-    "start": "http-server"
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "rxjs": "^6.2.2",
-    "rxjs-compat": "^6.2.2"
+    "rxjs-compat": "^6.2.2",
+    "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
