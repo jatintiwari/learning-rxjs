@@ -29,5 +29,8 @@ subscription.add(subscription2);
 
 setTimeout(() => {
   console.log('[unsubscribe] completing ...');
+  /** removes subscription2 */
+  subscription.remove(subscription2);
+  // only subscription will be cancelled
   subscription.unsubscribe()
 }, 3000);
