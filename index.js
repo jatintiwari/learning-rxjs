@@ -3,7 +3,8 @@
 // import rx2 from './rx2.jsx';
 // import rx3 from './rx3.jsx';
 // import rx4 from './rx4.jsx';
-import rx5 from './rx5.jsx';
+// import rx5 from './rx5.jsx';
+import rx6 from './rx6.jsx';
 
 /* uncomment for node */
 
